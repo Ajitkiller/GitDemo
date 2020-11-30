@@ -23,13 +23,13 @@ public class Task2Neutours {
 	XSSFWorkbook wb;
 	XSSFSheet wsh;
 	@BeforeTest
-	public void openBrowser() throws InterruptedException{
+	public void open() throws InterruptedException{
 		driver=new FirefoxDriver();
 		driver.get("http://www.newtours.demoaut.com/");
 	Thread.sleep(5000);
 	}
 	@Test
-	public void operation() throws IOException, InterruptedException{
+	public void registerlink() throws IOException, InterruptedException{
 		fso=new FileInputStream("C:\\Users\\USER\\Desktop\\Excl.xlsx");
 		wb=new XSSFWorkbook(fso);
 		wsh=wb.getSheet("Sheet1");

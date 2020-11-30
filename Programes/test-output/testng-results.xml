@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25060" started-at="2020-03-01T18:12:14Z" finished-at="2020-03-01T18:12:39Z">
+  <suite name="Default suite" duration-ms="89738" started-at="2020-11-29T14:03:11Z" finished-at="2020-11-29T14:04:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25060" started-at="2020-03-01T18:12:14Z" finished-at="2020-03-01T18:12:39Z">
-      <class name="com.testing.DDFramework.StoreAllData">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.testing.DDFramework.StoreAllData@6a4f787b]" name="openBrowser" is-config="true" duration-ms="14393" started-at="2020-03-01T18:12:14Z" finished-at="2020-03-01T18:12:28Z">
+    <test name="Default test" duration-ms="89738" started-at="2020-11-29T14:03:11Z" finished-at="2020-11-29T14:04:41Z">
+      <class name="DataDriven_TestCase.Programe_Tc1">
+        <test-method status="PASS" signature="openBrow()[pri:0, instance:DataDriven_TestCase.Programe_Tc1@5f341870]" name="openBrow" is-config="true" duration-ms="23993" started-at="2020-11-29T14:03:11Z" finished-at="2020-11-29T14:03:35Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="operation()[pri:0, instance:com.testing.DDFramework.StoreAllData@6a4f787b]" name="operation" duration-ms="10636" started-at="2020-03-01T18:12:28Z" finished-at="2020-03-01T18:12:39Z">
+        </test-method> <!-- openBrow -->
+        <test-method status="PASS" signature="executePlan()[pri:0, instance:DataDriven_TestCase.Programe_Tc1@5f341870]" name="executePlan" duration-ms="65702" started-at="2020-11-29T14:03:35Z" finished-at="2020-11-29T14:04:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- operation -->
-      </class> <!-- com.testing.DDFramework.StoreAllData -->
+        </test-method> <!-- executePlan -->
+      </class> <!-- DataDriven_TestCase.Programe_Tc1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

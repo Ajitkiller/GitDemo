@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 import atu.testrecorder.ATUTestRecorder;
 import atu.testrecorder.exceptions.ATUTestRecorderException;
 
-public class Tc1 {
+public class OrangeHRMTc1 {
 
 	ATUTestRecorder rec;
 	
